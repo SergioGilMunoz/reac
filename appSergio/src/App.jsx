@@ -2,24 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-
-
-  let campo =`lastName`
-  const persona = {
-  nombre : `federico`,
-  email : `serg@gmail.com` ,
-  [campo]:`Osandon`
-
-  }
-
-  const {nombre , email}= persona
-  console.log(nombre,email)
+function Natbar() {
+ 
 
   return (
-    <nav className ='App'>
+    <nav className ='Natbar'>
     <label> Catalogo </label>
     <p>Polos</p>
     <p>Shorts</p>
@@ -30,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default Natbar
